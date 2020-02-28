@@ -17,7 +17,7 @@
     "extra": {
         "assets-target": "pdgrid",
         "assets-files": [
-            "assets\*.*"
+            "assets/*.*"
         ]
     },
     "autoload": {
