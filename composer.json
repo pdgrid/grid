@@ -1,0 +1,28 @@
+{
+    "name": "pdgrid/grid",
+    "description": "PHP Data Grid widget",
+    "type": "library",
+    "require": {
+        "simple-php/composer-assets-plugin": "^1.0",
+        "nette/utils": "^3.1",
+        "simple-php/assets": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Puchkin Dmitriy",
+            "email": "pdima88@mail.ru"
+        }
+    ],
+    "extra": {
+        "assets-target": "pdgrid",
+        "assets-files": [
+            "assets\*.*"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "pdgrid\\": "/src"
+        }
+    }
+}
