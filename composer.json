@@ -3,7 +3,7 @@
     "description": "PHP Data Grid widget",
     "type": "library",
     "require": {
-        "simple-php/composer-assets-plugin": "^1.0",
+        "simple-php/composer-assets-plugin": "dev-master",
         "nette/utils": "^3.1",
         "simple-php/assets": "dev-master"
     },
@@ -16,9 +16,7 @@
     ],
     "extra": {
         "assets-target": "pdgrid",
-        "assets-files": [
-            "assets/*.*"
-        ]
+        "assets-dir": "assets"        
     },
     "autoload": {
         "psr-4": {
