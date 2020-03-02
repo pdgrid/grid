@@ -1,8 +1,8 @@
 <?php
 
-namespace pdgrid\Export;
+namespace PDGrid\Export;
 
-use pdgrid\Export;
+use PDGrid\Export;
 
 class Csv extends Export {
 

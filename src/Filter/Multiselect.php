@@ -1,9 +1,9 @@
 <?php
 
-namespace pdgrid\Filter;
+namespace PDGrid\Filter;
 
-use pdima88\phpassets\Assets;
-use pdgrid\Filter;
+use SimplePHP\Assets;
+use PDGrid\Filter;
 use Nette\Utils\Html;
 
 class Multiselect extends Filter

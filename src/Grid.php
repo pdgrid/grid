@@ -1,10 +1,10 @@
 <?php
 
-namespace pdgrid;
+namespace PDGrid;
 
 use SimplePHP\Assets;
-//use pdima88\twbshelper\Glyphicon;
-//use pdima88\twbshelper\TwbsBtn;
+use PDGrid\Helpers\Glyphicon;
+use PDGrid\Helpers\TwbsBtn;
 use Nette\Utils\Html;
 use Nette\Utils\Arrays;
 
@@ -13,16 +13,16 @@ class Grid {
     const ACTION_BTN_CLASS = 'pdgrid-action-btn';
 
     static $filter = [
-        'dateRange' => '\\pdgrid\\Filter\\DateRange',
-        'daterange' => '\\pdgrid\\Filter\\DateRange',
-        'date-range' => '\\pdgrid\\Filter\\DateRange',
-        'equal' => '\\pdgrid\\Filter\\Equal',
-        'select' => '\\pdgrid\\Filter\\Select',
-        'text' => '\\pdgrid\\Filter\\Text',
-        'multiselect' => '\\pdgrid\\Filter\\Multiselect'
+        'dateRange' => '\\PDGrid\\Filter\\DateRange',
+        'daterange' => '\\PDGrid\\Filter\\DateRange',
+        'date-range' => '\\PDGrid\\Filter\\DateRange',
+        'equal' => '\\PDGrid\\Filter\\Equal',
+        'select' => '\\PDGrid\\Filter\\Select',
+        'text' => '\\PDGrid\\Filter\\Text',
+        'multiselect' => '\\PDGrid\\Filter\\Multiselect'
     ];
     static $export = [
-        'csv' => '\\pdgrid\\Export\\Csv',
+        'csv' => '\\PDGrid\\Export\\Csv',
     ];
 
     protected $_id = '';

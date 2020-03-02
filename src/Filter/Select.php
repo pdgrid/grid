@@ -1,8 +1,8 @@
 <?php
 
-namespace pdgrid\Filter;
+namespace PDGrid\Filter;
 
-use pdgrid\Filter;
+use PDGrid\Filter;
 use Nette\Utils\Html;
 
 class Select extends Filter

@@ -1,9 +1,9 @@
 <?php
 
-namespace pdgrid\Filter;
+namespace PDGrid\Filter;
 
-use pdgrid\Filter;
-use pdima88\phpassets\Assets;
+use PDGrid\Filter;
+use SimplePHP\Assets;
 use Nette\Utils\Html;
 
 class Text extends Filter

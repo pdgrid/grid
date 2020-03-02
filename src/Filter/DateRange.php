@@ -1,11 +1,11 @@
 <?php
 
-namespace pdgrid\Filter;
+namespace PDGrid\Filter;
 
-use pdgrid\Filter;
-use pdima88\phpassets\Assets;
+use PDGrid\Filter;
+use SimplePHP\Assets;
 use Nette\Utils\Html;
-use pdima88\twbshelper\Glyphicon;
+use PDGrid\Helpers\Glyphicon;
 
 class DateRange extends Filter {
 

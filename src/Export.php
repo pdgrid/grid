@@ -1,6 +1,6 @@
 <?php
 
-namespace pdgrid;
+namespace PDGrid;
 
 abstract class Export
 {
